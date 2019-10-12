@@ -1,0 +1,19 @@
+{
+  "name": "heat-map",
+  "version": "1.0.0",
+  "description": "freeCodeCamp project https://learn.freecodecamp.org/data-visualization/data-visualization-projects/visualize-data-with-a-heat-map/",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fix": "eslint docs\\script.js --fix"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^6.5.1",
+    "eslint-config-google": "^0.14.0"
+  }
+}
