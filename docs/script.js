@@ -104,7 +104,10 @@ function drawChart(dataset, baseTemp) {
       tooltip
         .style("visibility", "visible")
         // id is required for fcc test
-        .html("<p>" + d["variance"] + "</p>")
+        .html("<p>Variance: " + d["variance"] + '<br>' +
+        "Year: " + d["year"] + '<br>' +
+        "Month" + d["month"] + '<br>' +
+        "</p>")
         // required for fcc test
         .attr("data-year", d["year"]);
     })
